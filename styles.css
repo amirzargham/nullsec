@@ -1,0 +1,226 @@
+/* Body and Header */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #0d0d0d;
+    color: #00ff99;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #151515;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 10px #8000ff; /* Purple shadow */
+}
+
+h1 {
+    color: ##00ff7e; /* Purple */
+    font-size: 2.5em;
+    text-shadow: 0 0 10px #8000ff, 0 0 20px #8000ff;
+    margin: 0.5em 0;
+}
+
+/* Unified Exploit Container */
+.exploit-container {
+    background-color: #1e1e2f;
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #8000ff; /* Purple border */
+    box-shadow: 0 0 5px #00ff99, 0 0 25px #8000ff; /* Purple and green shadows */
+    max-width: 800px;
+    color: #0affd0;
+}
+
+/* Title inside container */
+.exploit-container h2 {
+    color: #8000ff; /* Purple title */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #8000ff, 0 0 20px #8000ff;
+}
+
+/* Metadata text styling */
+.exploit-container pre {
+    font-family: 'Courier New', monospace;
+    color: #00ff99;
+    font-size: 1em;
+    white-space: pre-wrap;
+    background: none; /* No background to blend with container */
+    margin-bottom: 20px;
+}
+
+/* Exploit Details (Description, Code, Steps) */
+.exploit-container h3 {
+    color: #0affd0;
+    font-size: 1.3em;
+    margin-top: 20px;
+    text-shadow: 0 0 3px #00ffff, 0 0 1px #8000ff; /* Purple and teal */
+}
+
+.exploit-container p {
+    font-size: 1.1em;
+    color: #0affd0;
+    line-height: 1.6;
+    padding: 10px 0;
+}
+
+/* Code block styling */
+pre {
+    background-color: #0f0f1f;
+    color: #0affd0;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    box-shadow: 0 0 10px #8000ff, 0 0 10px #00ff99; /* Purple and green */
+}
+
+/* Responsive font sizes */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    .exploit-container h3 {
+        font-size: 1.2em;
+    }
+    pre {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+    pre {
+        font-size: 0.8em;
+    }
+}
+
+
+
+
+
+
+/* Body and Header */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #0d0d0d;
+    color: #00ff99;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #151515;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 16px #1c5700; /* Purple shadow */
+}
+
+h1 {
+    color: #5cad4a; /* Purple */
+    font-size: 2.5em;
+    text-shadow: 0 0 10px #0c5002, 0 0 10px #8000ff;
+    margin: 0.5em 0;
+}
+
+/* Exploit List Container */
+.exploit-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Exploit Summary Box */
+.exploit-summary {
+    background-color: #1e1e2f;
+    padding: 20px;
+    margin: 15px 0;
+    border: 1px solid #8000ff; /* Purple border */
+    box-shadow: 0 0 3px #00ff99, 0 0 1px #8000ff; /* Purple and green shadows */
+    width: 80%;
+    max-width: 900px;
+    color: #e6ffe6;
+    border-radius: 8px;
+}
+
+.exploit-summary h2 {
+    color: #47246a; /* Purple title */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-shadow: 0 0 2px #fefdff, 0 0 20px #872ae2;
+}
+
+.exploit-summary p {
+    font-size: 1.1em;
+    color: #0affd0;
+    line-height: 1.6;
+    padding: 10px 0;
+}
+
+/* Link Styling */
+.exploit-summary a {
+    color: #00ff99;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.exploit-summary a:hover {
+    color: #00ff99; /* Hover effect for links */
+}
+
+/* Responsive font sizes */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    .exploit-summary h2 {
+        font-size: 1.2em;
+    }
+    .exploit-summary p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.1em;
+    }
+    .exploit-summary p {
+        font-size: 0.9em;
+    }
+}
+
+
+
+
+
+
+
+
