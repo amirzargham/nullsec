@@ -106,6 +106,9 @@ pre {
     pre {
         font-size: 0.8em;
     }
+    a {
+        text-align: center;
+    }
 }
 
 
@@ -216,9 +219,6 @@ h1 {
         font-size: 0.9em;
     }
 }
-
-
-a {text-align: center;
 
 
 
